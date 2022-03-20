@@ -1,0 +1,6 @@
+digite = input('Digite algo')
+print('O tipo de variavel é ',type(digite))
+print('O input acima é espaço vazio?',digite.isspace())
+print('Está em Minusculo?',digite.islower())
+print('Está em Maisculo?',digite.isupper())
+print('Está Capitalizada',digite.istitle())
